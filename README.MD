@@ -22,7 +22,6 @@ N/A
 
 ## Screenshots
 
-Video walk-through:
 
 ## License
 
