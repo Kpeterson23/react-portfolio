@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #333;
+  font-size: 24px;
+}
+
+h3 {
+  margin: auto;
+  color: #4d90fe;
+  font-size: 20px;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.portfolio-form {
+  margin-bottom: 32px;
+}
+
+.portfolio-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #aaa;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #333;
+}
+
+.portfolio-input::placeholder {
+  color: #888;
+}
+
+.portfolio-button {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: #4d90fe;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.portfolio-input.edit {
+  border: 2px solid #4d90fe;
+}
+
+.portfolio-button.edit {
+  background: #4d90fe;
+  padding: 16px 22px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #333;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.low {
+  background: #ddd;
+}
+
+.medium {
+  background: #ccc;
+}
+
+.high {
+  background: #bbb;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  margin-right: 5px;
+  color: #333;
+}
+
+.edit-icon {
+  color: #333;
+}
+
+/* Dropdown menu */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #777;
+  border-radius: 4px;
+  width: 75px;
+  color: white;
+  padding: 16px;
+  margin: 10px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 215px;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content p:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #4d90fe;
+}

@@ -1,0 +1,52 @@
+{
+    "name": "react-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://github.com/Kpeterson23/react-portfolio",
+    "dependencies": {
+        "@chakra-ui/icons": "^2.1.0",
+        "@chakra-ui/react": "^2.8.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "framer-motion": "^10.15.1",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-helmet": "^6.1.0",
+        "react-icons": "^4.10.1",
+        "react-in-viewport": "^1.0.0-alpha.30",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "gh-pages": "^6.0.0"
+    }
+}
